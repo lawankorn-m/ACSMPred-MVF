@@ -9,6 +9,8 @@ ACSMPred-MVF could be categorized in 3 folders
 The command to reproduce ACSMPred-MVF on Linux:
 
 git clone https://github.com/lawankorn-m/ACSMPred-MVF.git
+
 docker build -t ACSMPred-MVF_image
+
 docker run -it --name ACSMPred-MVF_container ACSMPred-MVF_image
 
