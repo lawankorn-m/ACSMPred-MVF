@@ -1,10 +1,11 @@
 # ACSMPred-MVF
 We designed a novel algorithmic framework named "ACSMPred-MVF" for solving the ACSM problem.
 
-ACSMPred-MVF could be categorized in 3 folders
-- Train contained the PCA42-D training set
-- Test contained the PCA42-D test set
-- Code consisted of Train and Test sub-folders with ACMPred-MVF.ipynb (and Mol2Vec_Handcrafted Feature.ipynb  for feature extraction)
+ACSMPred-MVF has Raw Data, Feature Descriptor,  Feature Representation and Classifier
+
+In short, ACSMPred-MVF can be easily reproduced by using curated data within the Classifier folder	
+- PCA42-D training set
+- PCA42-D test set
 
 The command to reproduce ACSMPred-MVF on Linux:
 
